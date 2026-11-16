@@ -1,6 +1,5 @@
 import 'package:get/get.dart';
-//import 'package:myfirstapp/old_apps/Foodie_app/model/product_model.dart';
-import 'package:myfirstapp/gym/customer_view/gym_bar/model/items_model.dart';
+import 'package:myfirstapp/gym_app/customer_view/features/gym_bar/model/items_model.dart';
 
 class ItemsController extends GetxController {
   // متغير يحفظ الفئة المحددة حالياً
@@ -20,7 +19,10 @@ class ItemsController extends GetxController {
       reviewsCount: 120,
       description:
           "A delicious classic burger with beef, cheese and fresh vegetables.",
-      category: "Shakes", subtitle: '',
+      category: "Shakes",
+       subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Double Burger",
@@ -32,6 +34,8 @@ class ItemsController extends GetxController {
       description:
           "Double beef patty with extra melted cheese and special sauce.",
       category: "Shakes", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Bacon Burger",
@@ -75,6 +79,8 @@ class ItemsController extends GetxController {
       description:
           "Fire up your taste buds with spicy jalapenos and hot sauce.",
       category: "Shakes", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "BBQ Smokehouse Burger",
@@ -128,6 +134,8 @@ class ItemsController extends GetxController {
       description:
           "Grilled chicken breast with fresh sliced avocado and herb dressing.",
       category: "Shakes", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Truffle Burger",
@@ -160,6 +168,8 @@ class ItemsController extends GetxController {
       description:
           "Golden fried fish fillet with tartar sauce and crisp lettuce.",
       category: "Shakes", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Veggie Delight Burger",
@@ -433,6 +443,8 @@ class ItemsController extends GetxController {
       reviewsCount: 40,
       description: "Set of three mini personal pizzas with mixed toppings.",
       category: "Meals", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
 
     // ==================== Supplements ====================
@@ -455,6 +467,8 @@ class ItemsController extends GetxController {
       reviewsCount: 50,
       description: "100% fresh squeezed orange juice packed with vitamins.",
       category: "Supplements", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Admin Ahmed", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Iced Caramel Macchiato",
@@ -466,6 +480,8 @@ class ItemsController extends GetxController {
       description:
           "Cold espresso layered with vanilla milk and caramel drizzle.",
       category: "Supplements", subtitle: '',
+      oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Barworker Omar", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Strawberry Smoothie",
@@ -476,6 +492,8 @@ class ItemsController extends GetxController {
       reviewsCount: 70,
       description: "Thick and creamy blended strawberry fruit smoothie.",
       category: "Supplements", subtitle: '',
+       oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Barworker Omar", // <-- مين اللي عدله (اختياري)
     ),
 
     ProductModel(
@@ -497,6 +515,8 @@ class ItemsController extends GetxController {
       reviewsCount: 100,
       description: "Rich chocolate thick milkshake topped with whipped cream.",
       category: "Supplements", subtitle: '',
+       oldPrice: 140.0,          // <-- أضيفي السعر القديم هنا (اختياري)
+      updatedBy: "Barworker Omar", // <-- مين اللي عدله (اختياري)
     ),
     ProductModel(
       productTitle: "Oreo Shake",
